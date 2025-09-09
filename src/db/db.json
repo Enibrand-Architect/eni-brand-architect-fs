@@ -1,0 +1,58 @@
+{
+  "blogPosts": [
+    {
+      "id": "32bdbf11-f1ad-4f79-ab1c-b31a822160bb",
+      "category": "inspiration",
+      "title": "This is a Test",
+      "description": "This is a test description",
+      "author": "eba",
+      "authorAvatar": "eba-logo",
+      "date": "2025-08-06",
+      "imageUrl": "https://res.cloudinary.com/daya1fdka/image/upload/v1754509380/blogs/cover_images/this_is_a_test_1754509371220.jpg",
+      "content": "<p class=\"text-gray-500\">Oh well!<br><br>Thank God<br><br><b>Such is life</b></p>",
+      "latestArticle": false,
+      "image": "https://res.cloudinary.com/daya1fdka/image/upload/v1754509380/blogs/cover_images/this_is_a_test_1754509371220.jpg"
+    },
+    {
+      "id": "f52610f3-c39e-40a5-89c3-3dc0ecf4abb8",
+      "category": "inspiration",
+      "title": "A new article 2",
+      "description": "It is well",
+      "author": "eba",
+      "authorAvatar": "eba-logo",
+      "date": "2025-08-06T19:45:10.620Z",
+      "imageUrl": "https://res.cloudinary.com/daya1fdka/image/upload/v1754509509/blogs/cover_images/a_new_article_2_1754509505007.png",
+      "content": "<p class=\"text-gray-500\">It is well oo</p>",
+      "latestArticle": true
+    }
+  ],
+  "careers": [
+    {
+      "id": "a032a745-0dd5-438d-9c1e-56c1fd44c5ff",
+      "jobTitle": "Job 1",
+      "jobType": "Full-time",
+      "jobCategory": "Design",
+      "shortJobBrief": "<p class=\"text-gray-500\">THis is a job description</p>",
+      "datePosted": "2025-08-07T01:42:33.648Z",
+      "linkToApply": "https://forms.google.com"
+    },
+    {
+      "id": "0689c4be-327f-4031-a58a-6d1d8990b9e3",
+      "jobTitle": "Job 2",
+      "jobType": "Part-time",
+      "jobCategory": "Product",
+      "shortJobBrief": "<p class=\"text-gray-500\">Hey!</p><p class=\"text-gray-500\"><br></p><p class=\"text-gray-500\">The job is good</p>",
+      "datePosted": "2025-08-07",
+      "linkToApply": "https://forms.google.com"
+    },
+    {
+      "id": "337f88c2-69e6-4964-97f7-03c810649ce4",
+      "jobTitle": "Job 3",
+      "jobType": "Part-time",
+      "jobCategory": "Marketing",
+      "shortJobBrief": "<p class=\"text-gray-500\">Another career brief</p><p class=\"text-gray-500\"><br></p><p class=\"text-gray-500\">Editting the <b>3rd Post</b></p>",
+      "datePosted": "2025-08-07",
+      "linkToApply": "https://forms.google.com"
+    }
+  ]
+}
