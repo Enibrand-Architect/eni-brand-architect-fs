@@ -11,9 +11,9 @@ type Props = {
 };
 
 const POP_EVENT_INFORMATION = {
-  title: "Faisal Adams Presents: The Eniivy Experience (Sip & Share Edition)",
-  description: "some random event",
-  imageUrl: "/images/events/profile.jpg",
+  title: "The Eniivy Experience (Sip & Share Edition)",
+  description: "Register for the Eniivy Experience (Sip & Share Edition)",
+  imageUrl: "/images/events/anticipate-sip-and-paint.png",
   link: "https://forms.gle/8bGKXFwRTf29TNhB7"
 };
 
