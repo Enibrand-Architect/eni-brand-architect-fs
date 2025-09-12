@@ -12,7 +12,7 @@ const TestimonialsSection = () => {
     {
       id: 1,
       name: "Stephen Onaivi",
-      title: "Founder, Play With Stephen Golf Tournament & Okton Foundation",
+      title: "Founder, Play With Stephen Golf Tournament & Olston's Foundation",
       image: "/images/avatars/stephen-onaivi.png",
       quote:
         "People now recognize my page as one of the leading golf platforms in Nigeria.",

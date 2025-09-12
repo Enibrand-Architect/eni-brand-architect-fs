@@ -10,6 +10,13 @@ type Props = {
   onClose: () => void;
 };
 
+const POP_EVENT_INFORMATION = {
+  title: "Faisal Adams Presents: The Eniivy Experience (Sip & Share Edition)",
+  description: "some random event",
+  imageUrl: "/images/events/profile.jpg",
+  link: "https://forms.gle/8bGKXFwRTf29TNhB7"
+};
+
 const PopUpOnceBanner = ({ isOpen, onClose }: Props) => {
   const overlayVariants = {
     hidden: { opacity: 0 },
@@ -70,7 +77,7 @@ const PopUpOnceBanner = ({ isOpen, onClose }: Props) => {
 
             <div className="flex flex-col md:flex-row gap-8">
               <Image
-                src="/images/events/anticipate-sip-and-paint.png"
+                src={POP_EVENT_INFORMATION.imageUrl}
                 alt="pop once img"
                 className=" h-[300px] md:h-auto w-auto"
                 width={294}
@@ -80,14 +87,14 @@ const PopUpOnceBanner = ({ isOpen, onClose }: Props) => {
               <div className="self-start">
                 <div className="mb-8">
                   <h3 className="mb-2 text-lg font-medium leading-[28px]">
-                    The Eniivy Experience (Sip & Share Edition)
+                    {POP_EVENT_INFORMATION.title}
                   </h3>
                   <p className="text-sm leading-[20px]">
-                    Register for the Eniivy Experience (Sip & Share Edition)
+                    {POP_EVENT_INFORMATION.description}
                   </p>
                 </div>
 
-                <Link href="https://forms.gle/8bGKXFwRTf29TNhB7" target="_blank" rel="noopener noreferrer">
+                <Link href={POP_EVENT_INFORMATION.link} target="_blank" rel="noopener noreferrer">
                   <GreenButton
                     title="Register"
                     className="w-full cursor-pointer"

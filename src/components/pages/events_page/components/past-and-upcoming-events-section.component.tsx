@@ -56,14 +56,6 @@ const PastAndUpcomingEventsSection = () => {
         imageUrl: "/images/events/anticipate-sip-and-paint.png",
         link: "https://forms.gle/8bGKXFwRTf29TNhB7"
       },
-      {
-        id: "2",
-        date: "12 September 2024",
-        title: "Faisal's event",
-        description: "Participate in our upcoming Faisal's event.",
-        imageUrl: "/images/events/profile.jpg",
-        link: "https://forms.gle/8bGKXFwRTf29TNhB7"
-      },
     ],
   }; // This should be replaced with actual events data
   return (
