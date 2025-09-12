@@ -188,7 +188,7 @@ const CareersListsComponent = ({
                 <th className="w-20 p-4"></th>
               </tr>
             </thead>
-            <tbody>
+            <tbody className="overflow-y-scroll">
               <AnimatePresence>
                 {filteredPosts.map((career) => (
                   <motion.tr
