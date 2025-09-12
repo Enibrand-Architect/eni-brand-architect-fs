@@ -163,7 +163,7 @@ const CareersListsComponent = ({
         </div>
 
         {/* Table */}
-        <div className="bg-white border border-gray-200 overflow-hidden">
+        <div className="bg-white border border-gray-200 overflow-y-scroll">
           <table className="w-full">
             <thead className="bg-gray-50 border-b border-gray-200">
               <tr>
@@ -188,7 +188,7 @@ const CareersListsComponent = ({
                 <th className="w-20 p-4"></th>
               </tr>
             </thead>
-            <tbody className="overflow-y-scroll">
+            <tbody>
               <AnimatePresence>
                 {filteredPosts.map((career) => (
                   <motion.tr
