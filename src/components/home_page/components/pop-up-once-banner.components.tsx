@@ -11,7 +11,7 @@ type Props = {
 };
 
 const POP_EVENT_INFORMATION = {
-  title: "The Eniivy Experience (Sip & Share Edition)",
+  title: "The Experience (Sip & Share Edition)",
   description: "Register for the Eniivy Experience (Sip & Share Edition)",
   imageUrl: "/images/events/anticipate-sip-and-paint.png",
   link: "https://forms.gle/8bGKXFwRTf29TNhB7"
