@@ -77,7 +77,7 @@ const ProjectShowcaseSection = () => {
       title: "Talentville Africa",
       category: "Outreach",
       description:
-        "A Community of Storytelling, Soul, and Shared Moments Curated by ENI Brand Architect",
+        "A Community of Storytelling, Soul, and Shared Moments",
       year: "2024",
       modalDetails: talentvilleAfricaData,
       images: [
